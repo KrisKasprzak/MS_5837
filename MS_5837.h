@@ -64,6 +64,9 @@ loop(){
 #include "Arduino.h"
 #include <Wire.h>
 
+
+#define MS_5837_VERSION 2.0
+
 class MS_5837 {
 public:
 	static const float Pa;
